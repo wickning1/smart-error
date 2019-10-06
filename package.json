@@ -1,0 +1,27 @@
+{
+  "name": "smart-error",
+  "version": "1.0.0",
+  "description": "Cron script to print output upon smart disk failure",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@wickning1/async-exec": "^1.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wickning1/smart-error.git"
+  },
+  "keywords": [
+    "smartmontools",
+    "smartctl"
+  ],
+  "author": "Nick Wing",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wickning1/smart-error/issues"
+  },
+  "homepage": "https://github.com/wickning1/smart-error#readme"
+}
