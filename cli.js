@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 const exec = require('@wickning1/async-exec')
 
 const [,, ...disks] = process.argv

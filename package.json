@@ -1,11 +1,9 @@
 {
-  "name": "smart-error",
+  "name": "smartctl-error",
   "version": "1.0.0",
   "description": "Cron script to print output upon smart disk failure",
-  "main": "index.js",
-  "scripts": {
-    "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "bin": {
+    "smartctl-error": "./cli.js"
   },
   "dependencies": {
     "@wickning1/async-exec": "^1.0.2"
